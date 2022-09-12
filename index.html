@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class='container'>
+
+        <div class='card'>
+            <div class="inicio">
+                <div class="vol">
+                    <ion-icon name="home"></ion-icon>
+                    <a href="https://italowillian.github.io/Cardapio-principal/">Inicio</a>
+                    <a href="" class="logo"><i class="fas fa-utensils"></i>Cadastrar</a>
+                </div>
+                <div class="voltar">
+                    <img src="./img/Royals_Programming_4.0__2_-removebg-preview.png" alt="">
+                </div>
+                
+            </div>
+          <div id='msgError'></div>
+          <div id='msgSuccess'></div>
+            
+               
+                  <div class="label-float">
+                     <input type="text" id="Email" placeholder=" " required>
+                     <label id="labelEmail" for="nome"><ion-icon name="mail-outline"></ion-icon>E-mail</label>
+                     
+                  </div>
+      
+                  <div class="label-float">
+                     <input type="text" id="usuario" placeholder=" " required>
+                     <label id="labelUsuario" for="usuario"><ion-icon name="people-outline"></ion-icon>Nome</label>
+                     
+                  </div>
+                  
+                  <div class="label-float">
+                     <input type="password" id="senha" placeholder=" " required>
+                     <label id="labelSenha" for="senha"><ion-icon name="key-outline"></ion-icon>Senha</label>
+                    </div>
+
+                    <div class="label-float">
+                        <input type="password" id="confirmSenha" placeholder=" " required>
+                        <label id="labelConfirmSenha" for="confirmSenha"><ion-icon name="key-outline"></ion-icon>Confirmar Senha</label>
+                        
+                     </div>
+      
+        
+                  
+                  <div class='justify-center'>
+                     <button onclick='cadastrar()'>Cadastrar</button>
+                  </div>
+      
+          
+        </div>
+        </div>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
